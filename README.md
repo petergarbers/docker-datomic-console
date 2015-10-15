@@ -15,11 +15,11 @@ No other configuration is necessary. Simply **docker build** and **docker run** 
     .
     ├── .credentials
     └── Dockerfile
-    
+
 ## Example Dockerfile
 
-    FROM pointslope/datomic-console:0.9.5130
-    MAINTAINER Christian Romney "cromney@pointslope.com"
+    FROM pointslope/datomic-console:0.9.5327
+    MAINTAINER Peter Garbers "peter@garbers.me"
     CMD ["dev", "datomic:dev://db:4334/"]
 
 ## Miscellany
