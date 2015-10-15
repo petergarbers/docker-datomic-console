@@ -1,4 +1,4 @@
-DOCKER_IMAGE=atyz/docker-datomic-console
+DOCKER_IMAGE=atyz/datomic-console
 DOCKER_TAG?=$(shell ./datomic-version)
 
 .PHONY: all clean info
