@@ -1,8 +1,8 @@
-FROM pointslope/clojure:lein-2.5.0
+FROM clojure
 
 MAINTAINER Peter Garbers "peter@garbers.me"
 
-ENV DATOMIC_VERSION 0.9.5327
+ENV DATOMIC_VERSION 0.9.5302
 ENV DATOMIC_HOME /opt/datomic-pro-$DATOMIC_VERSION
 
 # Datomic Pro Starter as easy as 1-2-3
