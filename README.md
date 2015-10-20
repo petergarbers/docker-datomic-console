@@ -18,11 +18,11 @@ No other configuration is necessary. Simply **docker build** and **docker run** 
 
 ## Example Dockerfile
 
-    FROM pointslope/datomic-console:0.9.5327
+    FROM atyz/datomic-console:0.9.5302
     MAINTAINER Peter Garbers "peter@garbers.me"
     CMD ["dev", "datomic:dev://db:4334/"]
 
-## Miscellany
+## Misc
 
 The Dockerfile **EXPOSES** port 9000. Once the container is running, open the following url to view Datomic Console:
 
